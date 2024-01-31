@@ -1,6 +1,10 @@
 import React from "react";
 import heroImg from "../../assets/images/hero.svg";
 import CountUp from "react-countup";
+import instagram from "../../assets/images/insta.png"
+import facebook from "../../assets/images/fb.png"
+import twitter from "../../assets/images/x.png"
+import linkedin from "../../assets/images/linkedin.png"
 
 const Hero = () => {
   return (
@@ -72,7 +76,8 @@ const Hero = () => {
                   href="#linkedIn"
                   className="text-smallTextColor text-[18px] font-[600]"
                 >
-                  <i class="ri-linkedin-box-fill"></i>
+                  
+                  <img src={linkedin} height="50" width="50" alt=""></img>
                 </a>
               </span>
               <span>
@@ -80,7 +85,7 @@ const Hero = () => {
                   href="#Github"
                   className="text-smallTextColor text-[18px] font-[600]"
                 >
-                  <i class="ri-github-fill"></i>
+                 <img src={twitter} height="0" width="30" alt=""></img>
                 </a>
               </span>
               <span>
@@ -88,7 +93,7 @@ const Hero = () => {
                   href="#Instagram"
                   className="text-smallTextColor text-[18px] font-[600]"
                 >
-                  <i class="ri-instagram-line"></i>
+                  <img src={facebook} height="50" width="50" alt=""></img>
                 </a>
               </span>
               <span>
@@ -96,9 +101,10 @@ const Hero = () => {
                   href="#Facebook"
                   className="text-smallTextColor text-[18px] font-[600]"
                 >
-                  <i class="ri-facebook-circle-fill"></i>
+                <img src={instagram} height="50" width="50" alt=""></img>
                 </a>
               </span>
+            
             </div>
           </div>
           {/*====================Hero Image=====================*/}

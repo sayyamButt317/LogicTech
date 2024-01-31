@@ -13,15 +13,15 @@ const Card = () => {
         data-aos-duration="800"
         className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
       >
-       <div className="flex items-center justify-center">
-    <img src={web} height="200" width="200" alt="product image" />
-  </div>
-  <div className="px-5 pb-5">
-    
-      <h5 className="text-xl font-ui-serif tracking-tight text-black-300 dark:text-white">
-        Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.
-      </h5>
-    
+        <div className="flex items-center justify-center">
+          <img src={web} height="200" width="200" alt="" />
+        </div>
+        <div className="px-5 pb-5">
+          <h5 className="text-xl font-ui-serif tracking-tight text-black-300 dark:text-white">
+            Money is only a tool. It will take you wherever you wish, but it
+            will not replace you as the driver.
+          </h5>
+
           <div class="flex items-center mt-2.5 mb-5">
             <div class="flex items-center space-x-1 rtl:space-x-reverse">
               <svg
@@ -58,15 +58,15 @@ const Card = () => {
         data-aos-duration="600"
         className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
       >
-         <a href="#" className="flex items-center justify-center">
-    <img src={nft} height="200" width="200" alt="product image" />
-  </a>
-  <div className="px-5 pb-5">
-    <a href="#">
-      <h5 className="text-xl font-ui-serif tracking-tight text-black-300 dark:text-white">
-        Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.
-      </h5>
-    </a>
+        <div className="flex items-center justify-center">
+          <img src={nft} height="200" width="200" alt="" />
+        </div>
+        <div className="px-5 pb-5">
+          <h5 className="text-xl font-ui-serif tracking-tight text-black-300 dark:text-white">
+            Money is only a tool. It will take you wherever you wish, but it
+            will not replace you as the driver.
+          </h5>
+
           <div class="flex items-center mt-2.5 mb-5">
             <div class="flex items-center space-x-1 rtl:space-x-reverse">
               <svg
@@ -103,15 +103,15 @@ const Card = () => {
         data-aos-duration="800"
         className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
       >
-         <a href="#" className="flex items-center justify-center">
-    <img src={bitcoin} height="200" width="200" alt="product image" />
-  </a>
-  <div className="px-5 pb-5">
-    <a href="#">
-      <h5 className="text-xl font-ui-serif tracking-tight text-black-300 dark:text-white">
-        Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.
-      </h5>
-    </a>
+        <div className="flex items-center justify-center">
+          <img src={bitcoin} height="200" width="200" alt="product image" />
+        </div>
+        <div className="px-5 pb-5">
+          <h5 className="text-xl font-ui-serif tracking-tight text-black-300 dark:text-white">
+            Money is only a tool. It will take you wherever you wish, but it
+            will not replace you as the driver.
+          </h5>
+
           <div class="flex items-center mt-2.5 mb-5">
             <div class="flex items-center space-x-1 rtl:space-x-reverse">
               <svg
@@ -148,15 +148,16 @@ const Card = () => {
         data-aos-duration="1000"
         className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
       >
-         <a href="#" className="flex items-center justify-center">
-    <img src={biometric} height="200" width="200" alt="product image" />
-  </a>
-  <div className="px-5 pb-5">
-    <a href="#">
-      <h5 className="text-xl font-ui-serif tracking-tight text-black-300 dark:text-white">
-        Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.
-      </h5>
-    </a>
+        <a href="#" className="flex items-center justify-center">
+          <img src={biometric} height="200" width="200" alt="product image" />
+        </a>
+        <div className="px-5 pb-5">
+          <a href="#">
+            <h5 className="text-xl font-ui-serif tracking-tight text-black-300 dark:text-white">
+              Money is only a tool. It will take you wherever you wish, but it
+              will not replace you as the driver.
+            </h5>
+          </a>
           <div class="flex items-center mt-2.5 mb-5">
             <div class="flex items-center space-x-1 rtl:space-x-reverse">
               <svg
