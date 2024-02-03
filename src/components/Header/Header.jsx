@@ -1,5 +1,7 @@
 import React from "react";
-
+import AboutPage from "../About/AboutPage";
+import ContactPage from "../Contact/ContactPage";
+import ServicePage from "../Services/ServicePage";
 const Header = () => {
   return (
     <header className="w-full h-[80px] leading-[80px] flex items-center">
@@ -25,22 +27,22 @@ const Header = () => {
           <div className="menu">
             <ul className="flex items-center gap-10">
               <li>
-                <a className="text-smallTextColor font-sans md:font-serif " href="#about">
+                <a className="text-smallTextColor font-sans md:font-serif " href="/">
                   Home      
                 </a>
               </li>
               <li>
-                <a className="text-smallTextColor font-sans md:font-serif " href="#about">
+                <a className="text-smallTextColor font-sans md:font-serif " href="../Services/ServicePage">
                   Services
                 </a>
               </li>
               <li>
-                <a className="text-smallTextColor font-sans md:font-serif " href="#about">
+                <a className="text-smallTextColor font-sans md:font-serif " href="../About/AboutPage">
                   About
                 </a>
               </li>
               <li>
-                <a className="text-smallTextColor font-sans md:font-serif " href="#about">
+                <a className="text-smallTextColor font-sans md:font-serif " href="../Contact/ContactPage">
                   Contact
                 </a>
               </li>

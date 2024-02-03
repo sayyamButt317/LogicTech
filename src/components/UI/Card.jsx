@@ -14,7 +14,7 @@ const Card = () => {
         className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
       >
         <div className="flex items-center justify-center">
-          <img src={web} height="200" width="200" alt="" />
+          <img src={web} height="100" width="100" alt="" />
         </div>
         <div className="px-5 pb-5">
           <h5 className="text-xl font-ui-serif tracking-tight text-black-300 dark:text-white">
@@ -59,7 +59,7 @@ const Card = () => {
         className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
       >
         <div className="flex items-center justify-center">
-          <img src={nft} height="200" width="200" alt="" />
+          <img src={nft}  height="100" width="100" alt="" />
         </div>
         <div className="px-5 pb-5">
           <h5 className="text-xl font-ui-serif tracking-tight text-black-300 dark:text-white">
@@ -104,7 +104,7 @@ const Card = () => {
         className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
       >
         <div className="flex items-center justify-center">
-          <img src={bitcoin} height="200" width="200" alt="product image" />
+          <img src={bitcoin}  height="100" width="100" alt="product image" />
         </div>
         <div className="px-5 pb-5">
           <h5 className="text-xl font-ui-serif tracking-tight text-black-300 dark:text-white">
@@ -149,7 +149,7 @@ const Card = () => {
         className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
       >
         <a href="#" className="flex items-center justify-center">
-          <img src={biometric} height="200" width="200" alt="product image" />
+          <img src={biometric}  height="100" width="100" alt="product image" />
         </a>
         <div className="px-5 pb-5">
           <a href="#">
