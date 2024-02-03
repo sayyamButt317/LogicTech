@@ -1,8 +1,8 @@
 import React from "react";
-import web from "../../assets/images/WebDevelopment.png";
-import nft from "../../assets/images/nft.png";
-import bitcoin from "../../assets/images/Bitcoin.png";
-import biometric from "../../assets/images/biometric.png";
+import web from "../../assets/WebDevelopment.png";
+import nft from "../../assets/nft.png";
+import bitcoin from "../../assets/Bitcoin.png";
+import biometric from "../../assets/biometric.png";
 const Card = () => {
   return (
     <div className="flex flex-wrap justify-center items-center gap-4 p-4">

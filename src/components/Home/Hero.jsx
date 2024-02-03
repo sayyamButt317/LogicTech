@@ -1,10 +1,12 @@
 import React from "react";
-import heroImg from "../../assets/images/hero.svg";
+import heroImg from "../../assets/hero.svg";
 import CountUp from "react-countup";
-import instagram from "../../assets/images/insta.png"
-import facebook from "../../assets/images/fb.png"
-import twitter from "../../assets/images/x.png"
-import linkedin from "../../assets/images/linkedin.png"
+import instagram from "../../assets/insta.png"
+import facebook from "../../assets/fb.png"
+import twitter from "../../assets/x.png"
+import linkedin from "../../assets/linkedin.png"
+
+
 
 const Hero = () => {
   return (

@@ -1,11 +1,12 @@
 import { useEffect } from "react";
 import Aos from "aos";
 import "./App.css";
-import Header from "./components/Header/Header";
-import Footer from "./components/Footer/Footer";
-import Hero from "./components/UI/Hero";
-import Service from "./components/UI/Service";
-import Card from "./components/UI/Card";
+import Header from "./components/Utils/Header";
+import Footer from "./components/Utils/Footer";
+import Hero from "./components/Home/Hero";
+import Service from "./components/Home/Service";
+import Card from "./components/Home/Card";
+import Frameworks from "./components/Home/frameworks";
 function App() {
   useEffect(() =>{
     Aos.init();
@@ -16,6 +17,7 @@ function App() {
       <Hero/>
       <Service/>
       <Card/>
+<Frameworks/>
     </main>
   <Footer/>
   </>

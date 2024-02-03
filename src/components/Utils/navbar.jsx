@@ -1,54 +1,62 @@
 import React from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import AboutPage from "../About/AboutPage";
 import ContactPage from "../Contact/ContactPage";
-import ServicePage from "../Services/ServicePage.jsx";
-import navbar from "../Utils/navbar.jsx";
+import ServicePage from "../Services/ServicePage";
+import HomePage from "../Home/HomePage";
 
-function navbar() {
+function Navbar() {
   return (
     <div className="menu">
       <ul className="flex items-center gap-10">
         <li>
-          <a className="text-smallTextColor font-sans md:font-serif ">Home</a>
+          <Link to="/" className="text-smallTextColor font-sans md:font-serif">
+            Home
+          </Link>
         </li>
         <li>
-          <a className="text-smallTextColor font-sans md:font-serif ">
+          <Link
+            to="/Services/ServicePage"
+            className="text-smallTextColor font-sans md:font-serif"
+          >
             Services
-          </a>
+          </Link>
         </li>
         <li>
-          <a className="text-smallTextColor font-sans md:font-serif ">About</a>
+          <Link
+            to="/About/AboutPage"
+            className="text-smallTextColor font-sans md:font-serif"
+          >
+            About
+          </Link>
         </li>
         <li>
-          <a className="text-smallTextColor font-sans md:font-serif ">
+          <Link
+            to="/Contact/ContactPage"
+            className="text-smallTextColor font-sans md:font-serif"
+          >
             Contact
-          </a>
+          </Link>
         </li>
       </ul>
     </div>
   );
-  {
-    /* <BrowserRouter>
-        <Routes>
-            <Route path = '/Home' element={
-                <HomePage/>
-            }/>
-            <Route path = "/About" element={
-                <AboutPage/>
-            }/>
-            <Route path = "/Services" element={
-                <ServicesPage/>
-            }/>
-            <Route path = "/Contact" element={
-                <ContactPage/>
-            }/>
-
-
-        
-        </Routes>
-    </BrowserRouter> */
-  }
 }
 
-export default navbar;
+function App() {
+  return (
+    <Router>
+      <div>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/About/AboutPage" element={<AboutPage />} />
+          <Route path="/Services/ServicePage" element={<ServicePage />} />
+          <Route path="/Contact/ContactPage" element={<ContactPage />} />
+        </Routes>
+      </div>
+    </Router>
+  );
+}
+
+export default App;
