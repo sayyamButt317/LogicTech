@@ -2,6 +2,7 @@ import React from "react";
 import AboutPage from "../About/AboutPage";
 import ContactPage from "../Contact/ContactPage";
 import ServicePage from "../Services/ServicePage";
+
 const Header = () => {
   return (
     <header className="w-full h-[80px] leading-[80px] flex items-center">
@@ -32,12 +33,12 @@ const Header = () => {
                 </a>
               </li>
               <li>
-                <a className="text-smallTextColor font-sans md:font-serif " href="../Services/ServicePage">
+                <a className="text-smallTextColor font-sans md:font-serif " href="AboutPage">
                   Services
                 </a>
               </li>
               <li>
-                <a className="text-smallTextColor font-sans md:font-serif " href="../About/AboutPage">
+                <a className="text-smallTextColor font-sans md:font-serif " href="AboutPage">
                   About
                 </a>
               </li>
@@ -49,7 +50,6 @@ const Header = () => {
             </ul>
           </div>
           {/*====== Menu END ========*/}
-        
 
           {/*====== Chat Icon ========*/}
           <div className="flex items-center gap-4">

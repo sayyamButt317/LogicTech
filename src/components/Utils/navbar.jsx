@@ -2,7 +2,8 @@ import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import AboutPage from "../About/AboutPage";
 import ContactPage from "../Contact/ContactPage";
-import ServicePage from "../Services/ServicePage";
+import ServicePage from "../Services/ServicePage.jsx";
+import navbar from "../Utils/navbar.jsx";
 
 function navbar() {
   return (

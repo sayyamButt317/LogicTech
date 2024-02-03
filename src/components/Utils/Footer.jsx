@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <footer className="bg-primaryColor text-center text-white dark:bg-neutral-600 dark:text-neutral-200 lg:text-left mt-12">
+    <footer className="bg-primaryColor text-center text-white dark:bg-primaryColor dark:text-neutral-200 lg:text-left mt-12">
      
 
       <div className="mx-6 py-10 text-center md:text-left">
@@ -18,7 +18,7 @@ const Footer = () => {
               >
                 <path d="M12.378 1.602a.75.75 0 00-.756 0L3 6.632l9 5.25 9-5.25-8.622-5.03zM21.75 7.93l-9 5.25v9l8.628-5.032a.75.75 0 00.372-.648V7.93zM11.25 22.18v-9l-9-5.25v8.57a.75.75 0 00.372.648l8.628 5.033z" />
               </svg>
-              TW elements
+             LogicTech Studio
             </h6>
             <p>
               Here you can use rows and columns to organize your footer
@@ -144,13 +144,13 @@ const Footer = () => {
       </div>
 
       {/*-- Copyright section --*/}
-      <div className="bg-primaryColor p-6 text-center dark:bg-neutral-700">
+      <div className="bg-primaryColor p-6 text-center dark:bg-primaryColor">
         <span>© 2023 Copyright:</span>
         <a
-          className="font-semibold text-neutral-600 dark:text-neutral-400"
-          href="https://tw-elements.com/"
+          className="font-semibold text-neutral-600 dark:text-white"
+         
         >
-          TW elements
+          LOGICTECH STUDIO
         </a>
       </div>
     </footer>
