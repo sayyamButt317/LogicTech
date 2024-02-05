@@ -146,12 +146,12 @@ const Footer = () => {
       {/*-- Copyright section --*/}
       <div className="bg-primaryColor p-6 text-center dark:bg-primaryColor">
         <span>© 2023 Copyright:</span>
-        <a
+        <div 
           className="font-semibold text-neutral-600 dark:text-white"
          
         >
           LOGICTECH STUDIO
-        </a>
+        </div>
       </div>
     </footer>
   );

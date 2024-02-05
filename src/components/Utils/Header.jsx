@@ -1,5 +1,5 @@
 import React from "react";
-import AboutPage from "../About/AboutPage";
+import AboutPage from "../About/AboutHero";
 import ContactPage from "../Contact/ContactPage";
 import ServicePage from "../Services/ServicePage";
 
