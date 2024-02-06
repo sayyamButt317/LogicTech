@@ -10,7 +10,7 @@ import Frameworks from "./components/Home/frameworks";
 import AboutHero from "./components/About/AboutHero";
 import Chooseus from "./components/About/chooseus";
 import ServicePage from "./components/Services/ServiceHero";
-import CompanyServices from "./components/Services/CompanyServices";
+import CompanyServices from "./components/Services/servicetext";
 function App() {
   useEffect(() =>{
     Aos.init();
