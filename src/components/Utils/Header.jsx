@@ -1,7 +1,7 @@
 import React from "react";
 import AboutPage from "../About/AboutHero";
 import ContactPage from "../Contact/ContactPage";
-import ServicePage from "../Services/ServicePage";
+import ServicePage from "../Services/ServiceHero";
 
 const Header = () => {
   return (

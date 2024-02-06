@@ -9,6 +9,11 @@ import Card from "./components/Home/Card";
 import Frameworks from "./components/Home/frameworks";
 import AboutHero from "./components/About/AboutHero";
 import Chooseus from "./components/About/chooseus";
+<<<<<<< HEAD
+=======
+import ServicePage from "./components/Services/ServiceHero";
+import CompanyServices from "./components/Services/servicetext";
+>>>>>>> a414811e3741e0be8554e5063d5be03bb7c179db
 function App() {
   useEffect(() =>{
     Aos.init();
@@ -18,9 +23,15 @@ function App() {
     <main>
       {/* <Hero/>
       <Service/>
-      <Card/> */}
+      <Card/>
       <AboutHero/>  
+<<<<<<< HEAD
       <Chooseus/>
+=======
+      <Chooseus/>  */}
+      <ServicePage/>
+      <CompanyServices/>
+>>>>>>> a414811e3741e0be8554e5063d5be03bb7c179db
 {/* <Frameworks/> */}
     </main>
   <Footer/>
