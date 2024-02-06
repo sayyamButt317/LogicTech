@@ -3,6 +3,7 @@ import web from "../../assets/WebDevelopment.png";
 import nft from "../../assets/nft.png";
 import bitcoin from "../../assets/Bitcoin.png";
 import biometric from "../../assets/biometric.png";
+import Frontend from "../../assets/frontend.gif";
 const Card = () => {
   return (
     <div className="flex flex-wrap justify-center items-center gap-4 p-4">
@@ -57,7 +58,7 @@ const Card = () => {
         className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-white dark:border-gray-700"
       >
         <div className="flex items-center justify-center">
-          <img src={nft}  height="100" width="100" alt="" />
+          <img src={Frontend}  height="100" width="100" alt="" />
         </div>
         <div className="px-5 pb-5">
           <h5 className="text-xl font-ui-serif tracking-tight text-black-300 dark:text-black">

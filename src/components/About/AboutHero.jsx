@@ -1,6 +1,6 @@
 import React from "react";
 import animation from "../../assets/animation.gif";
-import People from "../../assets/people.png";
+import Robot from "../../assets/robot.png";
 
 function AboutPage() {
   return (
@@ -12,7 +12,7 @@ function AboutPage() {
           </h1>
        
           <img
-            src={People}
+            src={Robot}
             className="max-w-full h-auto md:w-1/2"
             alt="Code GIF"
           />
