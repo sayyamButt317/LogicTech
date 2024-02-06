@@ -9,34 +9,32 @@ import Card from "./components/Home/Card";
 import Frameworks from "./components/Home/frameworks";
 import AboutHero from "./components/About/AboutHero";
 import Chooseus from "./components/About/chooseus";
-<<<<<<< HEAD
-=======
+
 import ServicePage from "./components/Services/ServiceHero";
 import CompanyServices from "./components/Services/servicetext";
->>>>>>> a414811e3741e0be8554e5063d5be03bb7c179db
+import Servicelist from "./components/Services/servicelist";
 function App() {
-  useEffect(() =>{
+  useEffect(() => {
     Aos.init();
-  },[]);
-  return <>
-    <Header/>
-    <main>
-      {/* <Hero/>
-      <Service/>
-      <Card/>
-      <AboutHero/>  
-<<<<<<< HEAD
-      <Chooseus/>
-=======
-      <Chooseus/>  */}
-      <ServicePage/>
-      <CompanyServices/>
->>>>>>> a414811e3741e0be8554e5063d5be03bb7c179db
-{/* <Frameworks/> */}
-    </main>
-  <Footer/>
-  </>
+  }, []);
+  return (
+    <>
+      <Header />
+      <main>
+        {/* <Hero />
+        <Service />
+        <Card /> */}
+        {/* <AboutHero />
+        <Chooseus /> */}
+        <ServicePage />
+        <CompanyServices />
+        <Servicelist />
+
+        {/* <Frameworks /> */}
+      </main>
+      <Footer />
+    </>
+  );
 }
 
 export default App;
-                      
