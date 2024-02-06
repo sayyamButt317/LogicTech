@@ -8,6 +8,7 @@ import Service from "./components/Home/Service";
 import Card from "./components/Home/Card";
 import Frameworks from "./components/Home/frameworks";
 import AboutHero from "./components/About/AboutHero";
+import Chooseus from "./components/About/chooseus";
 function App() {
   useEffect(() =>{
     Aos.init();
@@ -19,6 +20,7 @@ function App() {
       <Service/>
       <Card/> */}
       <AboutHero/>  
+      <Chooseus/>
 {/* <Frameworks/> */}
     </main>
   <Footer/>
