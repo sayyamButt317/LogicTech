@@ -1,15 +1,23 @@
-import React from 'react'
-import App from "../../assets/app.png"
+import React from "react";
+import App from "../../assets/app.png";
 function ContactPage() {
   return (
-    <div className='w-full h-auto flex flex-col md:max-auto'>
-      <div  className='Container bg-black font-serif '>
-        <h1 className='text-white ml-9 text-4xl mt-5'>Contact US!</h1>
+    <div className="w-full h-auto md:max-auto">
+        <div className="flex flex-col md:flex-row justify-between items-center bg-gray-100">
+          
+      <span className="text-black text-7xl font-bold ml-[100px] ">
+        GET IN TOUCH!.
+        <p1 className="flex flex-col text-2xl items-center mt-3"> Contact Us & You’ll Hear Back TODAY.</p1>
+      </span>
+    
         
-        <img src={App} className=''></img>
+     
+      <div className="object-right">
+        <img src={App} className=""></img>
+      </div>
       </div>
     </div>
-  )
+  );
 }
 
-export default ContactPage
+export default ContactPage;
