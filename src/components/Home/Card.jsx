@@ -1,5 +1,5 @@
 import React from "react";
-import web from "../../assets/WebDevelopment.png";
+import web from "../../assets/AppDevelopment.gif";
 import nft from "../../assets/nft.png";
 import bitcoin from "../../assets/Bitcoin.png";
 import biometric from "../../assets/biometric.png";

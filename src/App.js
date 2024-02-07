@@ -13,6 +13,7 @@ import Chooseus from "./components/About/chooseus";
 import ServicePage from "./components/Services/ServiceHero";
 import CompanyServices from "./components/Services/servicetext";
 import Servicelist from "./components/Services/servicelist";
+import ContactPage from "./components/Contact/ContactPage";
 function App() {
   useEffect(() => {
     Aos.init();
@@ -26,9 +27,10 @@ function App() {
         <Card /> */}
         {/* <AboutHero />
         <Chooseus /> */}
-        <ServicePage />
+        {/* <ServicePage />
         <CompanyServices />
-        <Servicelist />
+        <Servicelist /> */}
+       <ContactPage/>
 
         {/* <Frameworks /> */}
       </main>
