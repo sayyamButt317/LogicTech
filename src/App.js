@@ -14,6 +14,7 @@ import ServicePage from "./components/Services/ServiceHero";
 import CompanyServices from "./components/Services/servicetext";
 import Servicelist from "./components/Services/servicelist";
 import ContactPage from "./components/Contact/ContactPage";
+import Form from "./components/Contact/form";
 function App() {
   useEffect(() => {
     Aos.init();
@@ -30,8 +31,8 @@ function App() {
         {/* <ServicePage />
         <CompanyServices />
         <Servicelist /> */}
-       <ContactPage/>
-
+        <ContactPage />
+        <Form />
         {/* <Frameworks /> */}
       </main>
       <Footer />
