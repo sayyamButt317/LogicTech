@@ -24,8 +24,8 @@ function App() {
       <Header />
       <main>
         {/* <Hero />
-        <Service />
-        <Card /> */}
+        <Service />*/}
+        <Card /> 
         {/* <AboutHero />
         <Chooseus /> */}
         {/* <ServicePage />
