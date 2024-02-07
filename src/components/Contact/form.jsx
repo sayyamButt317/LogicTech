@@ -1,8 +1,11 @@
 import React from "react";
 
 const formFields = [
+  {id:"username", label:"User name"},
   { id: "email-address-icon", label: "Your Email" },
-  {id:"phone-icon",label:"Enter your number "}
+  {id:"phone-icon",label:"Enter your number "},
+  {id:"location", label:"Location"},
+  {country:"Message",label:"Message"}
  
 ];
 
