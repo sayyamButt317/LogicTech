@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"; // Assuming you're using React Router f
 
 const Header = () => {
   return (
-    <header className="w-full h-20 flex items-center bg-gray-100 shadow">
+    <header className="w-full h-20 flex items-center ">
       <div className="container flex items-center justify-between mx-auto px-4">
         {/* Logo */}
         <div className="flex items-center gap-2">

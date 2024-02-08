@@ -3,13 +3,16 @@ import web from "../../assets/AppDevelopment.gif";
 import nft from "../../assets/nft.png";
 import bitcoin from "../../assets/Bitcoin.png";
 import biometric from "../../assets/biometric.png";
+import Frontend from "../../assets/frontend.gif"
+import Desktop from "../../assets/Desktop.gif"
+import Game from "../../assets/game.gif"
 
 
 const cards = [
-  { image: web, title: "Web Development", description: "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver." },
-  { image: nft, title: "App Development", description: "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver." },
-  { image: bitcoin, title: "Desktop", description: "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver." },
-  { image: biometric, title: "Blockchain", description: "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver." }
+  { image: Frontend, title: "Web Development", description: "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver." },
+  { image: web, title: "App Development", description: "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver." },
+  { image: Desktop, title: "Desktop", description: "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver." },
+  { image: Game, title: "Game", description: "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver." }
 ];
 
 const Card = () => {
@@ -19,7 +22,7 @@ const Card = () => {
         <div
           key={index}
           data-aos="fade-left"
-          data-aos-duration={(index + 1) * 600}
+          data-aos-duration={(index + 1) * 700}
           className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-white dark:border-gray-700"
         >
           <div className="flex items-center justify-center">
