@@ -13,6 +13,7 @@ import Servicelist from "./components/Services/servicelist";
 import ContactPage from "./components/Contact/ContactPage";
 import Form from "./components/Contact/form";
 import Home from "./components/Home/Home"
+import Contact from "./components/Contact/Contact";
 function App() {
   useEffect(() => {
     Aos.init();
@@ -21,9 +22,8 @@ function App() {
     <>
       <Header />
       <main>
-       <Home/>
-        
-        <Frameworks />
+       {/* <Home/> */}
+<Contact/>
       </main>
       <Footer />
     </>

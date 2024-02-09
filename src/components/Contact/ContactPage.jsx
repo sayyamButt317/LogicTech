@@ -7,7 +7,7 @@ function ContactPage() {
           
       <span className="text-black text-7xl font-bold ml-[100px] ">
         GET IN TOUCH!.
-        <p1 className="flex flex-col text-2xl items-center mt-3"> Contact Us & You’ll Hear Back TODAY.</p1>
+        <p1 className="flex flex-col text-2xl items-center mt-3 sm:text-1xl "> Contact Us & You’ll Hear Back TODAY.</p1>
       </span>
     
         

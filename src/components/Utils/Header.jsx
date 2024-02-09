@@ -1,9 +1,29 @@
-import React from "react";
-import { Link } from "react-router-dom"; // Assuming you're using React Router for navigation
+import React, { useEffect, useRef } from "react";
+import { Link } from "react-router-dom";
 
 const Header = () => {
+  const headerRef = useRef(null);
+
+  const stickyHeaderFunc = () => {
+    window.addEventListener("scroll", () => {
+      if (
+        document.body.scrollTop > 80 ||
+        document.documentElement.scrollTop > 80
+      ) {
+        headerRef.current.classList.add('sticky__header');
+      } else {
+        headerRef.current.classList.remove("sticky__header");
+      }
+    });
+  };
+
+  useEffect(() => {
+    stickyHeaderFunc();
+    return () => window.removeEventListener('scroll', stickyHeaderFunc);
+  }, []);
+
   return (
-    <header className="w-full h-20 flex items-center ">
+    <header ref={headerRef} className="w-full h-20 flex items-center ">
       <div className="container flex items-center justify-between mx-auto px-4">
         {/* Logo */}
         <div className="flex items-center gap-2">
@@ -25,16 +45,16 @@ const Header = () => {
 
         {/* Chat Icon */}
         <div className="flex items-center gap-4">
-            <button
-              className="flex items-center gap-2 text-smallTextColor font-[600] border border-solid border-smallTextColor py-2 px-4 
+          <button
+            className="flex items-center gap-2 text-smallTextColor font-[600] border border-solid border-smallTextColor py-2 px-4 
               rounded-[8px] max-h-[40px] hover:bg-smallTextColor hover:text-white hover:font-[500] ease-in duration-300"
-            >
-              <i className="ri-send-plane-line"></i>Lets' Talk
-            </button>
-            <span className="text-2xl text-smallTextColor md:hidden cursor-pointer">
-              <i className="ri-menu-line"></i>
-            </span>
-          </div>
+          >
+            <i className="ri-send-plane-line"></i>Lets' Talk
+          </button>
+          <span className="text-2xl text-smallTextColor md:hidden cursor-pointer">
+            <i className="ri-menu-line"></i>
+          </span>
+        </div>
       </div>
     </header>
   );
