@@ -2,10 +2,10 @@ import React from "react";
 
 const formFields = [
   { id: "username", label: "User name" },
-  { id: "email-address-icon", label: "Your Email" },
-  { id: "phone-icon", label: "Enter your number " },
+  { id: "email", label: "Your Email" },
+  { id: "phone", label: "Enter your number " },
   { id: "location", label: "Enter Your Location" },
-  { country: "Message", label: "Message here" },
+  { id: "text", label: "Message here" },
 ];
 
 const Map = () => {
@@ -33,8 +33,16 @@ const Map = () => {
                 className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full pl-2 py-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
                 placeholder={field.label}
               />
+            
+              
             </div>
+            
           ))}
+          <button class=" w-[300px] bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
+  Button
+</button>
+     
+        
         </div>
         <div className="container mx-auto sm:ml-4 sm:mt-5">
           <div className="flex-row">
