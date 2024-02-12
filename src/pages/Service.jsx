@@ -9,11 +9,11 @@ import Footer from "../components/Footer"
 function Service() {
   return (
  <>
- <Header />
+ 
  <ServiceHero />
  <ServiceText />
  <Servicelist />
- <Footer />
+ 
 
  </>
   )
