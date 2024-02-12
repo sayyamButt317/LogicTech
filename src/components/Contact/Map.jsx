@@ -12,7 +12,7 @@ const Map = () => {
   return (
     <>
       <div className="container">
-        <h1 className="flex-row item-center mt-5 text-3xl font-sans">
+        <h1 className="flex-row item-center justify mt-5 text-3xl font-sans">
           Get Your Response Today!
         </h1>
       </div>
@@ -36,9 +36,12 @@ const Map = () => {
             </div>
             
           ))}
+          <div className="Container">
           <button className="w-full px-20 sm:w-[300px] bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 rounded-full mt-5 mb-5">
             Submit
           </button>
+          </div>
+       
         </div>
 
         <div className="container mx-auto sm:ml-4 sm:mt-5">
