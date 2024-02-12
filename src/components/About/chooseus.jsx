@@ -2,11 +2,11 @@ import React from "react";
 
 function chooseus() {
   return (
-    <div className="w-full h-auto md:max-md">
-      <h1 className="font-serif text-black text-xl font-bold mb-4 md:w-a/2 md:px-6 py-6">
+    <div className="w-full h-auto px-auto md:max-md  md:px-6 py-6">
+      <h1 className="font-serif text-black text-xl font-bold mb-4 md:w-a/2 md:px-3 py-6">
         ABOUT US
       </h1>
-      <span className="text-gray-600 text-lg leading-relaxed">
+      <span className="text-gray-600 text-lg px-auto">
         LogicTech Studio (Pvt) Ltd. is a well-recognized global software services
         provider. Established in 2007, we have matured into a mid-sized,
         ISO-certified IT company delivering innovative business solutions and
@@ -19,8 +19,16 @@ function chooseus() {
         ready to build a project to perfection using best industry practices and
         contemporary technology stack.
       </span>
-      <div className="w-full h-auto md:max-md">
-        <h1 className="font-serif text-black text-xl font-bold mb-4 md:w-1/2 md:px-6 py-6">
+      <h1 className="font-serif text-black text-xl font-bold mb-4 md:w-1/2 md:px-3 py-6">
+          MISSION
+        </h1>
+      <div className="flex flex-row w-full h-auto md:max-md">
+      
+        <span className="text-gray-600 text-lg leading-relaxed">
+          Our mission is to support business development and growth through
+          unique and innovative technology solutions and services.
+        </span>
+          <h1 className="font-serif text-black text-xl font-bold mb-4 md:w-1/2 md:px-3 py-6">
           MISSION
         </h1>
         <span className="text-gray-600 text-lg leading-relaxed">

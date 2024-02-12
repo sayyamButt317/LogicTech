@@ -21,6 +21,7 @@ function App() {
       <Route path="/Service"  element={<Service />}/>
       <Route path="/About"  element={<About/>}/>
       <Route path="/Contact"  element={<Contact/>}/>
+      <Route path="*" element={<nOTFOUND/>}/>
     </Routes>
     
     </div>
