@@ -1,6 +1,6 @@
 import React from 'react'
-import AboutHero from './AboutHero'
-import Chooseus from './chooseus'
+import AboutHero from '../components/About/AboutHero'
+import Chooseus from '../components/About/chooseus'
 function About() {
   return (
 <>

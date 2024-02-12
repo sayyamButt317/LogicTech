@@ -1,6 +1,6 @@
 import React from 'react'
-import ContactPage from './ContactPage'
-import Map from './Map'
+import ContactPage from '../components/Contact/ContactPage'
+import Map from '../components/Contact/Map'
 const Contact =() => {
   return (
    <>
