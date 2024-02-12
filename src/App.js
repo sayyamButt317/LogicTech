@@ -4,6 +4,7 @@ import "./App.css";
 import Header from "./components/Utils/Header";
 import Footer from "./components/Utils/Footer";
 import Contact from "./components/Contact/Contact";
+import Home from "./components/Home/Home";
 function App() {
   useEffect(() => {
     Aos.init();
@@ -12,8 +13,7 @@ function App() {
     <>
       <Header />
       <main>
-       {/* <Home/> */}
-<Contact/>
+       <Home/> 
       </main>
       <Footer />
     </>
