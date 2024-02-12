@@ -16,7 +16,7 @@ function ServicePage() {
             </span>
           </div>
         </div>
-        <img src={People} className="max-w-full h-auto md:w-1/2" />
+        <img src={People} alt="" className="max-w-full h-auto md:w-1/2" />
       </div>
     </div>
   );
