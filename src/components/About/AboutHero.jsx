@@ -5,7 +5,7 @@ import info from "../../assets/info.png";
 
 function AboutPage() {
   return (
-    <div className="w-full h-auto md:mx-auto ">
+    <div className="w-full h-auto mt-5 md:mx-auto ">
       <div className="flex flex-col md:flex-row bg-gray-100 ">
         <div className="flex flex-col md:flex-row mx-auto items-center justify-between">
           <img
