@@ -11,10 +11,10 @@ const Header = () => {
       <LOGO/>
         {/* Menu */}
         <div className="hidden md:flex items-center gap-8">
-          <Link to="/" className="text-gray-600 hover:text-gray-900 transition duration-300">Home</Link>
-          <Link to="/Service" className="text-gray-600 hover:text-gray-900 transition duration-300">Services</Link>
-          <Link to="/About" className="text-gray-600 hover:text-gray-900 transition duration-300">About</Link>
-          <Link to="/Contact" className="text-gray-600 hover:text-gray-900 transition duration-300">Contact</Link>
+          <Link to="/" spy={true} smooth={true} offset={-70} duration={500} className="text-gray-600 hover:text-gray-900 transition duration-300">Home</Link>
+          <Link to="/Service" spy={true} smooth={true} offset={-70} duration={500} className="text-gray-600 hover:text-gray-900 transition duration-300">Services</Link>
+          <Link to="/About" spy={true} smooth={true} offset={-70} duration={500} className="text-gray-600 hover:text-gray-900 transition duration-300">About</Link>
+          <Link to="/Contact" spy={true} smooth={true} offset={-70} duration={500} className="text-gray-600 hover:text-gray-900 transition duration-300">Contact</Link>
         </div>
 
         {/* Chat Icon */}

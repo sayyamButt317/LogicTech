@@ -19,23 +19,8 @@ function chooseus() {
         ready to build a project to perfection using best industry practices and
         contemporary technology stack.
       </span>
-      <h1 className="font-serif text-black text-xl font-bold mb-4 md:w-1/2 md:px-3 py-6">
-          MISSION
-        </h1>
-      <div className="flex flex-row w-full h-auto md:max-md">
-      
-        <span className="text-gray-600 text-lg leading-relaxed">
-          Our mission is to support business development and growth through
-          unique and innovative technology solutions and services.
-        </span>
-          <h1 className="font-serif text-black text-xl font-bold mb-4 md:w-1/2 md:px-3 py-6">
-          MISSION
-        </h1>
-        <span className="text-gray-600 text-lg leading-relaxed">
-          Our mission is to support business development and growth through
-          unique and innovative technology solutions and services.
-        </span>
-      </div>
+    
+    
     </div>
   );
 }
