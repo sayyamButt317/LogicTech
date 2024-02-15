@@ -24,8 +24,7 @@ function mission() {
       <div className="flex flex-row w-full h-auto md:max-md">
       
         <span className="text-gray-600 text-lg leading-relaxed">
-          Our mission is to support business development and growth through
-          unique and innovative technology solutions and services.
+        Our vision is to excel in innovative technological developments and to set a benchmark of excellence in providing IT solutions for global clients.
         </span>
     
       </div>
