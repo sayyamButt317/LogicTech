@@ -24,9 +24,31 @@ const Map = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    name =e.target.name;
+    value=e.target.value;
+    setFormData({...formData, [name]: value }); 
     console.log('Form submitted:', formData);
     // Here you can perform further actions like sending data to a server
   };
+  const PostData = async(e) => {
+e.preventDefault();
+const{username,email,location,phone,text} = formData;
+const res=await fetch("/Form",{
+  method:"POST",
+  headers:{
+    "Content-Type":"application/json"
+  },
+  body:JSON.stringify({username,email,location,phone,text})
+});
+const data = await res.json();
+if(data.status===200){
+  window.alert("Success Submitted");
+  console.log(data);
+} else{
+  window.alert("Error");
+
+}
+  }
 
   return (
     <>
@@ -46,7 +68,7 @@ const Map = () => {
             </div>
           </div>
         </div>
-        <form onSubmit={handleSubmit} className="w-full max-w-lg bg-white shadow-md rounded ml-10 px-8 pt-6 pb-8 mb-4 mt-5 sm:ml-auto">
+        <form onSubmit={handleSubmit} onClick={PostData} method='POST' className="w-full max-w-lg bg-white shadow-md rounded ml-10 px-8 pt-6 pb-8 mb-4 mt-5 sm:ml-auto">
           <h1 className="mb-5 text-xl font-bold">Get Your Response Today!</h1>
           <div className="container flex-col">
             {formFields.map((field, index) => (
